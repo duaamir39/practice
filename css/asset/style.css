@@ -1,0 +1,267 @@
+ /* @font-face{
+src: url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&family=Playwrite+US+Trad:wght@100..400&display=swap');
+font-family: "Playwrite US Trad", cursive;
+}
+
+body{
+  background-color: rgb(212, 182, 182);
+  margin: 0;
+  padding: 0;
+  font-weight: 900;
+  font-style: oblique;
+}
+h1,h2,h3{
+  color:#1b32b7;
+  font-family: "Playwrite US Trad", cursive;
+  font-size: 3rem;
+  text-decoration:double underline;
+  text-align: justify;
+}
+#a{
+  background-color: rgb(216, 182, 247);
+}
+li{
+  list-style-type: none;
+  text-transform: lowercase;
+}
+li>a{
+  text-decoration: none;
+  color: black;
+}
+nav p{
+  background-color: azure;
+}
+nav+p{
+  background-color: #1b32b7;
+  color: white;
+}
+h1~p{
+  background-color: aquamarine;
+  color: aliceblue;
+  box-shadow: 2px 2px 3px rgb(0, 0, 0);
+  line-height: 2rem;
+  letter-spacing: 0.25rem;
+  word-spacing:0.25rem ;
+  
+}
+div{
+  margin: 20px;
+}
+p{
+  background-color: #1b32b7;
+  color: bisque;
+  text-align: justify;
+  text-indent: 60px;
+}
+
+span{
+  vertical-align: top;
+  text-shadow: 2px 2px 3px #b42121;
+}
+
+p::first-letter{
+  font-size: 30px;
+  color: rgb(0, 170, 255);
+}
+
+p::first-line{
+  font-weight:bolder;
+  text-shadow: 2px 2px 3px #000;
+}
+a{
+  text-decoration: none;
+  margin: 10px;
+  text-transform: capitalize;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: yellow;
+  font-weight: 900;
+  font-size: 20px;
+text-shadow: 2px 2px 3px #000;
+}
+
+a:visited{
+ color: rgb(17, 128, 0);
+} */
+/* input{
+  background-color: aqua;
+}
+input:focus{
+background-color: orange;
+}
+
+input:active{
+  background-color: blue;
+}
+input:hover{
+  background-color: blueviolet;
+}*/
+/* .main{ 
+  background-color: blue;
+  width: 500px;
+  height: 400px;
+}
+
+.child{
+  background-color: orange;
+  width: 50%;
+  height: 80%;
+} */
+
+/* img{
+ min-width:300px;
+ max-width: 600px;
+  height: 300px;
+  
+} */
+/* p{
+  background-color: orange;
+  width: 300px;
+  height: auto;
+  padding: 15px;
+  margin: 15px auto;
+  margin-top: 30px;
+  border-width:2px;
+  border-style: solid;
+  border-color: black;
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  box-shadow: 2px 2px 4px rgb(248, 135, 250);
+} */
+/* .a{
+background-color: rgb(248, 111, 235);
+height: auto;
+width: 400px;
+margin: 8px;
+padding: 6px;
+color: aqua;
+} */
+/* @import url('https://fonts.googleapis.com/css2?family=Anton+SC&display=swap');
+p{
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style:italic;
+  font-size: 20px;
+  text-decoration: underline solid;
+ letter-spacing: 0.25em;
+ text-align: justify;
+ text-shadow: 2px 2px 4px blue;
+  
+}
+p::first-line{
+  font-size: 30px;
+  color: rgb(7, 251, 170);
+}
+input:focus{
+  background-color: rgb(22, 26, 254);
+  
+}
+input:hover{
+  background-color:brown;
+} */
+/* .parent{
+  background-color: pink;
+  width: 400px;
+  height: 400px;
+}
+.child{
+  background-color: yellow;
+  width: 50%;
+  height: 400px;
+}
+img{
+  min-width: 400px;
+  max-width: 800px;
+} */
+/* .test{
+background-color: aquamarine;
+width: 400px;
+height: auto;
+margin: auto;
+border-width: 2px 4px 6px 8px;
+border-style: solid;
+border-color: black;
+box-shadow: 2px 4px 8px black;
+border-radius: 20px;
+padding: 15px;
+clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+} */
+/* div{
+  background-color: aqua;
+}
+img{
+  clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+} */
+/* ul{
+ text-align: center;
+}
+li{
+  list-style: none;
+  display: inline;
+  margin-right: 15px;
+}
+.coming_soon{
+color: rgba(0, 0, 0, 0.541);
+} */
+/* li{
+  list-style-type:circle;
+  list-style-position: outside;
+  list-style: outside circle;
+} */
+/* table{
+  border-collapse: collapse;
+  empty-cells: hide;
+}
+*/
+/* td {
+border: 1px solid #0088dd;
+padding: 15px;}
+td:hover{
+  color: white;
+  background-color: black;
+} 
+table.one {
+empty-cells: show;}
+table.two {
+empty-cells: hide;} */
+/* div{
+  background-image: url(https://img.freepik.com/free-photo/zen-balancing-pebbles-misty-lake_53876-138198.jpg);
+width: 900px;
+height: 700px;
+background-repeat: no-repeat;
+} */
+/* input{
+font-size: 20px;
+border: none;
+border-bottom: 1px solid #dcdcdc;
+}
+input:focus{
+  outline: none;
+  background-color: #7fbcfa;
+  border-radius: 3px;
+} 
+fieldset {
+  width: 350px;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: right;}
+  legend {
+  background-color: #efefef;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: left;
+  text-transform: uppercase;}
+  button{
+    color: #ffffff;
+    background-color: #6E260E;
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding: 5px;
+    margin-top: 15px;
+    border: none;
+    width: 90px;
+    cursor: pointer;
+  } */
