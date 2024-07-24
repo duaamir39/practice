@@ -231,17 +231,22 @@ width: 900px;
 height: 700px;
 background-repeat: no-repeat;
 } */
-/* input{
+ /* input{
 font-size: 20px;
 border: none;
-border-bottom: 1px solid #dcdcdc;
+border: 1px solid #030303;
+background-image: url(https://media.istockphoto.com/id/1125279178/vector/mail-line-icon.jpg?s=612x612&w=0&k=20&c=NASq4hMg0b6UP9V0ru4kxL2-J114O3TaakI467Pzjzw=);
+background-size: 25px;
+background-repeat: no-repeat;
+padding-right: 25px;
+background-position: right;
 }
 input:focus{
   outline: none;
-  background-color: #7fbcfa;
+  background-color: #fbfbfb;
   border-radius: 3px;
-} 
-fieldset {
+}  */
+/*fieldset {
   width: 350px;
   border: 1px solid #dcdcdc;
   border-radius: 10px;
@@ -265,3 +270,218 @@ fieldset {
     width: 90px;
     cursor: pointer;
   } */
+
+/* .main{
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .one{
+    background-color: yellow;
+  }
+  .two{
+    background-color: greenyellow;
+  }
+  .three{
+    background-color: pink;
+  }
+  .four{
+    background-color: orange;
+  }
+  .five{
+    background-color: aqua;
+  } 
+    */
+/* .box1{
+width: 200px;
+height: 200px;
+background-color: red;
+float: right;
+
+}
+.box2{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  float: right;
+  }
+  .box3{
+    width: 500px;
+    height: 200px;
+    background-color:pink;
+  clear: both;
+    }
+    .box4{
+      width: 200px;
+      height: 200px;
+      background-color:orange;
+      } */
+/* *{
+  margin: 0px;
+  padding: 0px;
+}      
+.main{
+  background-color: #f0f2f5;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.content h1{
+  color: #227df2;
+  text-transform: capitalize;
+}
+
+.content p{
+  width: 400px;
+}
+.form{
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  height: 250px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+
+}
+input{
+  width: 200px;
+margin: 15px 0px 0px 20px;
+padding: 5px;
+border: 1px solid #f0f2f5;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+input:focus{
+  outline: none;
+}
+
+button{
+  background-color:  #227df2;
+  border: none;
+  color: white;
+  width: 200px;
+  border-radius: 2px;
+  text-transform: capitalize;
+  padding: 5px;
+  margin: 15px 0px 0px 25px;
+}
+.link{
+  margin: 10px 0px 0px 70px;
+}
+a{
+  color: #227df2;
+  text-decoration: none;
+}
+hr{
+  border: 1px solid #f0f2f5;
+  width: 200px;
+  margin: 15px 0px 0px 25px;
+}
+.green_button{
+  background-color: #3cb024;
+} */
+/* .image{
+  background-repeat: no-repeat;
+background-size: cover;
+  background-image: url(https://img.freepik.com/free-photo/view-three-dimensional-car_23-2150998581.jpg);
+}
+.box{
+  background-color: rgb(163, 163, 163);
+} */
+
+/* ol{
+ list-style-image: url(./image/star-fill.svg);
+ list-style-position: inside;
+ list-style: inside disc;
+} */
+
+/* table{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-transform: capitalize;
+  text-align: center;
+  margin: 100px auto;
+}
+tr{
+  border: 1px solid black;
+}
+td{
+  border: 1px solid black;
+  padding: 5px;
+}
+.pink{
+  background-color: pink;
+}
+
+.pink:hover{
+  background-color: black;
+  color: aliceblue;
+  text-transform: uppercase;
+  font-weight: 900;
+} */
+/* td{
+  padding: 5px;
+  border: 1px solid black;
+}
+.one{
+  empty-cells: hide;
+}
+
+.two{
+  empty-cells:show;
+} */
+
+fieldset{
+  border: 1px solid #dcdcdc;
+  width: 250px;
+  border-radius: 5px;
+}
+legend{
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 5px;
+  text-transform: capitalize;
+  color: white;
+  background-color: rgb(113, 78, 31);
+}
+label{
+  color: rgb(113, 78, 31);
+}
+input{
+  border: none;
+  border-bottom: 1px solid  #dcdcdc;
+  color: rgb(113, 78, 31);
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+input:focus{
+outline:none;
+}
+.email{
+  background-image: url(https://static-00.iconduck.com/assets.00/person-icon-1901x2048-a9h70k71.png);
+background-size: 10px;
+background-repeat: no-repeat;
+background-position: 5px;
+}
+button{
+  display: block;
+  margin: 10px auto;
+  background-color: rgb(113, 78, 31);
+  color: #dcdcdc;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+}
+
+div i{
+  position: absolute;
+}

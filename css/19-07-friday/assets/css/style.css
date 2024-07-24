@@ -1,0 +1,145 @@
+/* .parent{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(8, 81, 81); 
+    color: white;
+}
+
+.order3{
+   order: -1; 
+}
+
+.order2{
+    order: 1;
+} */
+
+/*  ////////////////////////////// CARDS SECTION */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cards{
+    padding-top: 8em;
+    min-height: 50vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.card {
+  width: 250px;
+  height: 300px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  border-radius: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: 50%;
+    border-radius: 20px 20px 0 0;
+}
+
+
+.content{
+    padding: 1em;
+} 
+
+/* HEADER */
+.header {
+background-color: white;
+  max-width: 100vw;
+  height: 70px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  font-size: 2em;
+}
+
+nav {
+  flex-basis: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  color: rgb(15, 141, 186);
+}
+
+.cart {
+  position: relative;
+}
+
+.cart div {
+  height: 8px;
+  width: 10px;
+  padding: 5px;
+  font-size: small;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+
+  position: absolute;
+  top: -16px;
+  left: 10px;
+}
+
+
+/* BOX */
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: rgb(245, 80, 108);
+  position: relative;
+}
+
+.child1 {
+  width: 300px;
+  height: 300px;
+  background-color: pink;
+  position: absolute;
+}
+
+.child2 {
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    z-index: 2;
+    /* z-index: -1; */
+  }
+  
