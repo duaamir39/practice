@@ -1,0 +1,35 @@
+
+
+
+/* .box2{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(232, 121, 121);
+} */
+
+
+
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: pink;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em 2em;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(246, 35, 35);
+}
+
+
+
+
+

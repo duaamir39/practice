@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asset/style.css" />
+    <link
+      rel="shortcut icon"
+      href="./asset/Playstation_Img/logo.png"
+      type="image/x-icon"
+    />
+    <title>Playstation</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <img src="./asset/Playstation_Img/logo.png" alt="" class="logo" />
+        <nav>
+          <ul id="menuList">
+            <li><a href="#">Game Station</a></li>
+            <li><a href="#">GTA-5</a></li>
+            <li><a href="#">New released</a></li>
+            <li><a href="#">Other</a></li>
+          </ul>
+        </nav>
+        <img src="./asset/Playstation_Img/menu.png" alt="" class="menu-icon" onclick="togglemenu()"/>
+      </div>
+      <div class="row">
+        <div class="col-1">
+          <h2>PS4 V2<br />Dualshock 4</h2>
+          <h3>Wireless Controller for Playstation 4</h3>
+          <p>&#40;Compatible/Generic &#41;</p>
+          <h4>&#36;32.58</h4>
+          <button type="button">
+            Buy Now<img src="./asset/Playstation_Img/arrow.png" alt="" />
+          </button>
+        </div>
+        <div class="col-2">
+          <img
+            src="./asset/Playstation_Img/controller.png"
+            alt=""
+            class="controller"
+          />
+          <div class="color-box"></div>
+          <div class="add-btn">
+            <img src="./asset/Playstation_Img/add.png" alt="" />
+            <p><small>Add to Cart</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script>
+        var menuList=document.getElementById("menuList");
+        menuList.style.maxHeight="0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight=="0px"){
+menuList.style.maxHeight = "130px";
+            }
+            else{
+                menuList.style.maxHeight="0px";   
+            }
+        }
+    </script>
+  </body>
+</html>

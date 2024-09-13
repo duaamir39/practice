@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+    min-height: 70px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 2em;
+}
+nav{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
+}
+nav a{
+   text-decoration: none; 
+   color: white;
+}
+
+
+.logo{
+font-size: xx-large;
+}
+
+.logo img{
+    width: 200px;
+}
+
+
+.logo span {
+    color: orange;
+}
+
+
+
+@media (max-width : 850px) {
+
+nav , header{
+    padding:  2em;
+flex-direction: column;
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .box,
+.box2 {
+  height: 400px;
+  width: 100vw;
+  background-color: aqua;
+}
+
+.box2 {
+  background-color: blue;
+} */
+
+
+
+
+
+
+
+
+/* @media (orientation: portrait) {
+  .box {
+    background-color: red;
+  }
+} */
+
+/* @media (min-width : 300px ) and (max-width: 700px ) {
+    .box{
+        background-color: rgb(49, 116, 4);
+    }
+} */
+
+/* @media (min-width : 500px) and (max-width : 1000px) {
+.box{
+    background-color: pink;
+}
+} */
+
+/* @media (max-width : 1000px){
+    .box{
+        background-color: rgb(49, 116, 4);
+    }
+
+}
+
+
+
+@media (max-width : 700px)  {
+
+    .box{
+        background-color: rgb(4, 88, 116);
+    }
+
+    .box2{
+        background-color: gray;
+    }
+
+} */

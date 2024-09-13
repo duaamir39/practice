@@ -277,10 +277,9 @@ input:focus{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    height: 300px;
+    height: auto;
     align-items: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
   }
   .one{
     background-color: yellow;
@@ -296,8 +295,8 @@ input:focus{
   }
   .five{
     background-color: aqua;
-  } 
-    */
+  }  */
+   
 /* .box1{
 width: 200px;
 height: 200px;
@@ -438,7 +437,7 @@ td{
   empty-cells:show;
 } */
 
-fieldset{
+/* fieldset{
   border: 1px solid #dcdcdc;
   width: 250px;
   border-radius: 5px;
@@ -480,8 +479,176 @@ button{
   border-radius: 5px;
   padding: 5px;
   width: 100px;
+  cursor: pointer;
 }
 
 div i{
   position: absolute;
+} */
+/* .main{
+  display: flex;
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+  flex-direction: row;
+  justify-content: space-around;
+align-items: start ;
+font-size: 30px;
+flex-wrap: wrap;
+}
+.one{
+  background-color: blue;
+  order: 1;
+  
+}
+.two{
+  background-color: red;
+  order: 3;
+}
+.three{
+  background-color: yellowgreen;
+  order: 2;
+  align-self: flex-start;
+}
+.four{
+  background-color: orange;
+  order: 4;
+}
+.five{
+  background-color: pink;
+  order: 5;
+} */
+/* .main{
+width: 60%;
+height: 30em;
+margin:50px auto;
+}
+
+
+
+.medium{
+  height: 250px;
+  width: 250px;
+}
+
+.align-left{
+  float: left;
+  margin-right: 10px;
+}
+.align-right{
+  float: right;
+}
+
+p{
+  width:70em;
+} */
+/* .add{
+  width: 100%;
+  height: 50px;
+  text-transform: capitalize;
+}
+.main{
+  width: 100%;
+  height: 50vh;
+  background-image: url(https://www.carpro.com/hs-fs/hubfs/2023-Chevrolet-Corvette-Z06-credit-chevrolet.jpeg?width=1020&name=2023-Chevrolet-Corvette-Z06-credit-chevrolet.jpeg);
+  background-repeat: no-repeat;
+  background-size: 800px;
+
+}
+.main1{
+  width: 100%;
+  height:50vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 70px;
+
+}
+p{
+  width: 30em;
+  margin-left: 10px;
+} */
+/* .container{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+ grid-gap: 20px;
+ grid-auto-rows: minmax(100px, auto);
+ grid-auto-columns: minmax(50px, auto );
+  
+}
+.item{
+  background-color: lightcoral;
+  border: 3px solid green;
+  border-radius: 5px;
+}
+
+.item-1{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 2;
+  grid-column-end: 4;
+
+} */
+/* .main{
+  display: grid;
+  background-color: rgba(0, 0, 0, 0.563);
+  grid-template-columns: repeat(3, 1fr);
+}
+.items{
+  background-color: aqua;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.sub-parent{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+.box{
+  background-color: lightgreen;
+  border: 3px solid greenyellow;
+  border-radius: 5px;
+  
+}
+.header{
+  grid-column-start: 1 ;
+  grid-column-end: 4;
+  height: 50px;
+}
+.sidebar{
+  grid-row-start: 2 ;
+  grid-row-end: 6;
+  height: 300px;
+}
+
+.content-1{
+  grid-column-start: 2;
+  grid-column-end:4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background-color:#0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  ;
+}
+
+.content-2, .content-3{
+  background-image: url(https://fps.cdnpk.net/images/home/subhome-ai.webp?w=649&h=649);
+  background-size: contain;
+  background-repeat: repeat-x;
+  grid-row-start: 4;
+  grid-row-end:6;
+
+}
+
+.footer{
+  grid-column-start: 1;
+  grid-column-end: 4;
+ height: 200px;
+} */
+
+@media(max-width:500px){
+  img{
+    max-width: 300px;
+    height: 300px;
+  }
+
 }
